@@ -11,7 +11,7 @@ namespace Tyuiu.VegerinaVV.Sprint0.Task2.V0.Test
             var name = "Вика";
             var res = DataService.GetMessage(name);
 
-            Assert.AreEqual("Привет..., Вика", res);
+            Assert.AreEqual("Привет, Вика", res);
         }
     }
 }
