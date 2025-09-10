@@ -27,7 +27,7 @@
             else
             {
                 return a / b;
-            }    
+            }  
         }
     }
 }
