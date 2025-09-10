@@ -10,5 +10,4 @@ internal class Program
         Console.WriteLine("A / B = " + DataService.Division(5, 0));
         Console.ReadKey();
     }
-
 }
