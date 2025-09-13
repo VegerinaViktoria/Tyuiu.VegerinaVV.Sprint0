@@ -20,7 +20,7 @@ namespace Tyuiu.VegerinaVV.Sprint0.Task6.V0.Test
             Assert.AreEqual(-15, res);
         }
         [TestMethod]
-        public void CheckMultiplicationArrayValid()
+        public void CheckMultArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
             var res = DataService.MultiplicationArray(numbers);
